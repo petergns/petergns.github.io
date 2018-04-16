@@ -1,0 +1,103 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #676858;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+/* Changes the border and color of hr line */
+
+.line {
+	border-top: 3px solid #7d97ad;
+}
+
+/* Sets the color of URLs on the page */
+
+
+/* unvisited link */
+
+a:link {
+	color: #2d3c49;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/* visited link */
+
+a:visited {
+	color: #2d3c49;
+}
+
+/* mouse over link */
+
+a:hover {
+	color: #2d3c49;
+}
+
+/* selected link */
+
+a:active {
+	color: #2d3c49;
+}
+@media (max-width: 1000px) {
+	/* CSS displayed if width is equal to or less than 1000px */
+	/* Centers featured image on smaller devices */
+	.featured {
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+	/* End of Media (max-width: 1000px) */
+}
+
+/* Centers the project image */
+
+.project {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+/* Styles the first heading */
+
+.header-title {
+	font-size: 50px;
+	color: #2d3c49;
+	font-weight: 300;
+}
+
+/* Styles the heading sub-title */
+
+.header-subtitle {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Sets top margin for logo */
+
+.title-logo {
+	margin-top: 20px;
+}
+
+/* Styles the section heading */
+
+.section-heading {
+	text-indent: 10px;
+	color: #7d97ad;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+/* Styles the project title */
+
+.project-title {
+	color: #2d3c49;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+/* Sets Github Links to a thin font-weight */
+
+.text-thin {
+	font-weight: 100;
+}
