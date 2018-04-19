@@ -1,6 +1,8 @@
 # Build a Github Portfolio Page
 How to build a Github Portfolio Page
 
+Link to Portfolio Page: https://petergns.github.io/
+
 ## Set Up Instructions
 Follow these instructions to set up the Website Project.
 
